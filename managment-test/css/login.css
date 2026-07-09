@@ -1,0 +1,43 @@
+.buttons{
+    margin-top:40px;
+}
+
+.secondary{
+    background:#198754;
+    margin-left:20px;
+}
+
+.secondary:hover{
+    background:#157347;
+}
+
+.advantages{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin:80px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:280px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.1);
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h2{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#666;
+}
